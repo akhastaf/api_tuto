@@ -1,0 +1,28 @@
+{
+  "name": "api_tuto",
+  "version": "1.0.0",
+  "description": "just crud api using express and mongodb and mongoose",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhastaf/api_tuto.git"
+  },
+  "author": "Abderrazzaq Khastaf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akhastaf/api_tuto/issues"
+  },
+  "homepage": "https://github.com/akhastaf/api_tuto#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
